@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';import fs from 'node:fs/promises';import {build} from 'esbuild';
+await build({entryPoints:['lib/content.ts'],bundle:true,platform:'node',format:'esm',outfile:'.sites-runtime/content-validation.mjs'});
+const {contentSchema,defaultContent,publicContent,normalizeContent}=await import('../.sites-runtime/content-validation.mjs');
+assert(contentSchema.safeParse(defaultContent).success,'Defaults must be valid');
+const bad=structuredClone(defaultContent);bad.services.makyaj.title='<img src=x onerror=alert(1)>';assert(!contentSchema.safeParse(bad).success);
+const badUrl=structuredClone(defaultContent);badUrl.photos[0].image='https://other.example/pixel.svg';assert(!contentSchema.safeParse(badUrl).success);
+const badRights=structuredClone(defaultContent);badRights.photos[0].rightsConfirmed=false;assert(!contentSchema.safeParse(badRights).success);
+const draft=structuredClone(defaultContent);draft.photos[0].status='draft';assert(!publicContent(draft).photos.some(p=>p.id===draft.photos[0].id));
+const hidden=structuredClone(defaultContent);hidden.services.kas.enabled=false;assert(!publicContent(hidden).photos.some(p=>p.key==='kas'));
+const legacy=structuredClone(defaultContent);delete legacy.schemaVersion;legacy.settings.brand='BY TUĞÇE PINAR';legacy.settings.headline='Sizin ifadeniz. Sizin zamanınız.';legacy.photos[0].image='assets/eyeliner-paylasimi.jpg';const migrated=normalizeContent(legacy);assert.equal(migrated.settings.brand,'BY TUĞÇE AKMAN');assert.equal(migrated.settings.phone,legacy.settings.phone);assert.equal(migrated.settings.instagram,'https://www.instagram.com/bytugcepinar/');assert(!JSON.stringify(publicContent(migrated)).includes('tirnak-net.webp'));
+const emptyServices=structuredClone(defaultContent);Object.values(emptyServices.services).forEach(s=>s.enabled=false);assert(!contentSchema.safeParse(emptyServices).success);
+const template=await fs.readFile('lib/site-template.ts','utf8');for(const phrase of ['Orijinal ekran görüntüsünü aç','Fotoğrafın orijinalini','Özel tasarım önizlemesi','Tuğçe Pınar','netleştiril'])assert(!template.includes(phrase),phrase);
+for(const p of defaultContent.photos)assert((await fs.stat('public/'+p.image)).size>0);
+for(const f of ['cilt-bakimi-paylasimi.jpg','tirnak-paylasimi.jpg','tirnak-net.webp','tugce-pinar-hero-hd.webp','tirnak-temsili.webp']){await assert.rejects(fs.access('public/assets/'+f));}
+const manifest=JSON.parse(await fs.readFile('lib/crop-manifest.json','utf8'));assert.equal(manifest.length,20);for(const entry of manifest){assert(entry.output.startsWith('crop-'));assert(entry.width>0&&entry.height>0);await assert.rejects(fs.access('public/assets/'+entry.input));}const duplicate=structuredClone(defaultContent);duplicate.photos.push(structuredClone(duplicate.photos[0]));assert(!contentSchema.safeParse(duplicate).success);const missingService=structuredClone(defaultContent);missingService.photos[0].serviceId='missing';assert(!contentSchema.safeParse(missingService).success);
+console.log('Validation passed: typed defaults, XSS/URL/rights rejection, draft/category filtering, legacy migration/contact preservation, customer copy and removal of original public files.');

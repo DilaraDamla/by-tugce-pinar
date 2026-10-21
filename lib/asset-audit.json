@@ -1,0 +1,292 @@
+{
+  "assets": [
+    {
+      "image": "assets/work-eyeliner.webp",
+      "sourceFile": "eyeliner-paylasimi.jpg",
+      "crop": null,
+      "width": 512,
+      "height": 640,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-brows-a.webp",
+      "sourceFile": "kas-tasarimi-2.webp",
+      "crop": null,
+      "width": 1600,
+      "height": 1600,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-brows-b.webp",
+      "sourceFile": "kas-tasarimi-3.webp",
+      "crop": null,
+      "width": 1440,
+      "height": 1440,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-lashes-a.webp",
+      "sourceFile": "kirpik-laminasyon-1.webp",
+      "crop": null,
+      "width": 1280,
+      "height": 1600,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-lashes-b.webp",
+      "sourceFile": "kirpik-laminasyon-2.webp",
+      "crop": null,
+      "width": 1280,
+      "height": 1600,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-lips.webp",
+      "sourceFile": "dudak-renklendirme.webp",
+      "crop": null,
+      "width": 1280,
+      "height": 1600,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-eyeliner-a.webp",
+      "sourceFile": "eyeliner-2.webp",
+      "crop": null,
+      "width": 1280,
+      "height": 1600,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-updo.webp",
+      "sourceFile": "topuz-paylasimi.jpg",
+      "crop": [
+        0,
+        120,
+        828,
+        1400
+      ],
+      "width": 828,
+      "height": 1280,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-makeup.webp",
+      "sourceFile": "makyaj-paylasimi.jpg",
+      "crop": [
+        90,
+        160,
+        725,
+        1180
+      ],
+      "width": 635,
+      "height": 1020,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/work-french.webp",
+      "sourceFile": "tirnak-paylasimi.jpg",
+      "crop": [
+        0,
+        120,
+        828,
+        1560
+      ],
+      "width": 828,
+      "height": 1440,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/portrait-original.webp",
+      "sourceFile": "reference-1.jpg",
+      "crop": [
+        0,
+        312,
+        828,
+        1195
+      ],
+      "width": 828,
+      "height": 883,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-altinci.webp",
+      "sourceFile": "qa-altinci.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-dokuzuncu.webp",
+      "sourceFile": "qa-dokuzuncu.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-kas.webp",
+      "sourceFile": "qa-kas.png",
+      "crop": [
+        0,
+        0,
+        304,
+        503
+      ],
+      "width": 304,
+      "height": 503,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-sekizinci.webp",
+      "sourceFile": "qa-sekizinci.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-sohbet.webp",
+      "sourceFile": "qa-sohbet.png",
+      "crop": [
+        0,
+        0,
+        304,
+        503
+      ],
+      "width": 304,
+      "height": 503,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-temizlik.webp",
+      "sourceFile": "qa-temizlik.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-tugce.webp",
+      "sourceFile": "qa-tugce.png",
+      "crop": [
+        0,
+        0,
+        304,
+        503
+      ],
+      "width": 304,
+      "height": 503,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-yedinci.webp",
+      "sourceFile": "qa-yedinci.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    },
+    {
+      "image": "assets/reel-yeni.webp",
+      "sourceFile": "qa-yeni.png",
+      "crop": [
+        8,
+        0,
+        338,
+        558
+      ],
+      "width": 330,
+      "height": 558,
+      "permission": "User explicitly confirmed publication permission on 2026-10-19",
+      "processing": "crop/resize/encode only, no AI"
+    }
+  ],
+  "pending": [
+    {
+      "service": "cilt",
+      "file": "cilt-bakimi-paylasimi.jpg",
+      "reason": "Yazı katmanları sonuç fotoğrafından güvenilir biçimde ayrılamıyor; özgün fotoğraf yükleyin."
+    },
+    {
+      "service": "makyaj",
+      "file": "kas-paylasimi.jpg",
+      "reason": "Fotoğrafın içinde eski Pınar marka filigranı var. Filigran silinmedi; güncel özgün çalışma fotoğrafı bekleniyor."
+    }
+  ],
+  "removedPublicFiles": [
+    "beauty-editorial.webp",
+    "care-still-life.webp",
+    "cilt-bakimi-paylasimi.jpg",
+    "dudak-renklendirme.webp",
+    "eyeliner-2.webp",
+    "eyeliner-detay.jpg",
+    "eyeliner-paylasimi.jpg",
+    "kas-paylasimi.jpg",
+    "kas-tasarimi-2.webp",
+    "kas-tasarimi-3.webp",
+    "kirpik-laminasyon-1.webp",
+    "kirpik-laminasyon-2.webp",
+    "makyaj-paylasimi.jpg",
+    "qa-altinci.png",
+    "qa-dokuzuncu.png",
+    "qa-kas.png",
+    "qa-sekizinci.png",
+    "qa-sohbet.png",
+    "qa-temizlik.png",
+    "qa-tugce.png",
+    "qa-yedinci.png",
+    "qa-yeni.png",
+    "tirnak-net.webp",
+    "tirnak-paylasimi.jpg",
+    "tirnak-temsili.webp",
+    "topuz-paylasimi.jpg",
+    "tugce-pinar-editorial.jpg",
+    "tugce-pinar-hero-hd.webp",
+    "tugce-profile.jpg"
+  ]
+}

@@ -1,0 +1,6 @@
+import {admin,body,database,json,writeAllowed} from '@/lib/server';
+import {statusSchema} from '@/lib/content';
+export const dynamic='force-dynamic';
+export async function GET(){if(!await admin())return json({error:'Yetkiniz yok.'},403);const result=await database().prepare('SELECT id,name,phone,service,date,time,note,status,created_at FROM requests ORDER BY created_at DESC LIMIT 250').all();return json(result.results);}
+export async function PATCH(req:Request){if(!await admin()||!writeAllowed(req))return json({error:'Yetkiniz yok.'},403);try{const p=await body(req,2000);const status=statusSchema.parse(p.status);if(typeof p.id!=='string')throw Error();const result=await database().prepare('UPDATE requests SET status=? WHERE id=?').bind(status,p.id).run();return result.meta.changes?json({ok:true}):json({error:'Talep bulunamadı.'},404);}catch{return json({error:'Geçersiz talep.'},400);}}
+export async function DELETE(req:Request){if(!await admin()||!writeAllowed(req))return json({error:'Yetkiniz yok.'},403);try{const p=await body(req,1000);if(typeof p.id!=='string')throw Error();await database().prepare('DELETE FROM requests WHERE id=?').bind(p.id).run();return json({ok:true});}catch{return json({error:'Geçersiz talep.'},400);}}

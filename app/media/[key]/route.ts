@@ -1,0 +1,3 @@
+import {env} from 'cloudflare:workers';
+import {mediaIsPublic} from '@/lib/server';
+export async function GET(_:Request,{params}:{params:Promise<{key:string}>}){const {key}=await params;if(!/^[\w-]+\.(jpg|png|webp)$/.test(key)||!env.BUCKET||!await mediaIsPublic(key))return new Response(null,{status:404});const item=await env.BUCKET.get(key);if(!item||item.customMetadata?.cropVersion!=='1')return new Response(null,{status:404});return new Response(item.body,{headers:{'Content-Type':item.httpMetadata?.contentType||'application/octet-stream','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'"}});}

@@ -1,0 +1,22 @@
+{
+  "assets/portrait-original.webp": "assets/crop-portrait-portrait.webp",
+  "assets/reel-altinci.webp": "assets/crop-reel-altinci.webp",
+  "assets/reel-dokuzuncu.webp": "assets/crop-reel-dokuzuncu.webp",
+  "assets/reel-kas.webp": "assets/crop-reel-kas.webp",
+  "assets/reel-sekizinci.webp": "assets/crop-reel-sekizinci.webp",
+  "assets/reel-sohbet.webp": "assets/crop-reel-sohbet.webp",
+  "assets/reel-temizlik.webp": "assets/crop-reel-temizlik.webp",
+  "assets/reel-tugce.webp": "assets/crop-reel-tugce.webp",
+  "assets/reel-yedinci.webp": "assets/crop-reel-yedinci.webp",
+  "assets/reel-yeni.webp": "assets/crop-reel-yeni.webp",
+  "assets/work-brows-a.webp": "assets/crop-work-brows-a.webp",
+  "assets/work-brows-b.webp": "assets/crop-work-brows-b.webp",
+  "assets/work-eyeliner-a.webp": "assets/crop-work-eyeliner-a.webp",
+  "assets/work-eyeliner.webp": "assets/crop-work-eyeliner.webp",
+  "assets/work-french.webp": "assets/crop-work-french.webp",
+  "assets/work-lashes-a.webp": "assets/crop-work-lashes-a.webp",
+  "assets/work-lashes-b.webp": "assets/crop-work-lashes-b.webp",
+  "assets/work-lips.webp": "assets/crop-work-lips.webp",
+  "assets/work-makeup.webp": "assets/crop-work-makeup.webp",
+  "assets/work-updo.webp": "assets/crop-work-updo.webp"
+}

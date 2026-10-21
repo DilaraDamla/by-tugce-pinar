@@ -1,0 +1,262 @@
+[
+  {
+    "input": "portrait-original.webp",
+    "output": "crop-portrait-portrait.webp",
+    "crop": [
+      0,
+      0,
+      828,
+      883
+    ],
+    "width": 828,
+    "height": 883,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-altinci.webp",
+    "output": "crop-reel-altinci.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-dokuzuncu.webp",
+    "output": "crop-reel-dokuzuncu.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-kas.webp",
+    "output": "crop-reel-kas.webp",
+    "crop": [
+      11,
+      0,
+      293,
+      503
+    ],
+    "width": 282,
+    "height": 503,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-sekizinci.webp",
+    "output": "crop-reel-sekizinci.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-sohbet.webp",
+    "output": "crop-reel-sohbet.webp",
+    "crop": [
+      11,
+      0,
+      293,
+      503
+    ],
+    "width": 282,
+    "height": 503,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-temizlik.webp",
+    "output": "crop-reel-temizlik.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-tugce.webp",
+    "output": "crop-reel-tugce.webp",
+    "crop": [
+      11,
+      0,
+      293,
+      503
+    ],
+    "width": 282,
+    "height": 503,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-yedinci.webp",
+    "output": "crop-reel-yedinci.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "reel-yeni.webp",
+    "output": "crop-reel-yeni.webp",
+    "crop": [
+      8,
+      0,
+      321,
+      558
+    ],
+    "width": 313,
+    "height": 558,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-brows-a.webp",
+    "output": "crop-work-brows-a.webp",
+    "crop": [
+      200,
+      0,
+      1400,
+      1600
+    ],
+    "width": 1200,
+    "height": 1600,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-brows-b.webp",
+    "output": "crop-work-brows-b.webp",
+    "crop": [
+      180,
+      0,
+      1260,
+      1440
+    ],
+    "width": 1080,
+    "height": 1440,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-eyeliner-a.webp",
+    "output": "crop-work-eyeliner-a.webp",
+    "crop": [
+      40,
+      0,
+      1240,
+      1600
+    ],
+    "width": 1200,
+    "height": 1600,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-eyeliner.webp",
+    "output": "crop-work-eyeliner.webp",
+    "crop": [
+      16,
+      0,
+      496,
+      640
+    ],
+    "width": 480,
+    "height": 640,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-french.webp",
+    "output": "crop-work-french.webp",
+    "crop": [
+      0,
+      168,
+      828,
+      1272
+    ],
+    "width": 828,
+    "height": 1104,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-lashes-a.webp",
+    "output": "crop-work-lashes-a.webp",
+    "crop": [
+      40,
+      0,
+      1240,
+      1600
+    ],
+    "width": 1200,
+    "height": 1600,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-lashes-b.webp",
+    "output": "crop-work-lashes-b.webp",
+    "crop": [
+      40,
+      0,
+      1240,
+      1600
+    ],
+    "width": 1200,
+    "height": 1600,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-lips.webp",
+    "output": "crop-work-lips.webp",
+    "crop": [
+      40,
+      0,
+      1240,
+      1600
+    ],
+    "width": 1200,
+    "height": 1600,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-makeup.webp",
+    "output": "crop-work-makeup.webp",
+    "crop": [
+      0,
+      87,
+      635,
+      933
+    ],
+    "width": 635,
+    "height": 846,
+    "public": "cropped derivatives only"
+  },
+  {
+    "input": "work-updo.webp",
+    "output": "crop-work-updo.webp",
+    "crop": [
+      0,
+      88,
+      828,
+      1192
+    ],
+    "width": 828,
+    "height": 1104,
+    "public": "cropped derivatives only"
+  }
+]

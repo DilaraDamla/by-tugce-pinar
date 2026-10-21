@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 2,
+  "settings": {
+    "brand": "BY TUĞÇE AKMAN",
+    "headline": "Güzelliğiniz, sizin tarzınız.",
+    "description": "Her detayda size özel dokunuşlar. İhtiyaçlarınızı birlikte değerlendirelim, size en uygun uygulamayı keşfedelim.",
+    "phone": "905338972137",
+    "address": "Beylikdüzü / İstanbul. Gelmeden önce güncel adresi teyit edin.",
+    "instagram": "https://www.instagram.com/bytugcepinar/",
+    "about": "Güzellik yolculuğunuz, nasıl bir görünüm istediğinizi konuşarak başlar. BY TUĞÇE AKMAN’da çalışmalarınızı ve sorularınızı bir ön görüşmeye taşıyabilir; uygulama kapsamını, bakım planını ve ücreti karar vermeden önce öğrenebilirsiniz.",
+    "bookingIntro": "Hizmetinizi ve zaman tercihinizi seçin; mesajınızı WhatsApp üzerinden işletmeye gönderin. Kesin randevu işletmenin onayıyla oluşur.",
+    "portrait": "assets/crop-portrait-portrait.webp",
+    "portraitApproved": true,
+    "verification": {
+      "phone": false,
+      "address": false,
+      "instagram": false,
+      "services": false
+    },
+    "primaryCta": "Randevu Talebi Oluştur",
+    "secondaryCta": "Uygulamaları Keşfet",
+    "galleryTitle": "Uygulamalarımıza yakından bakın.",
+    "footerText": "BY TUĞÇE AKMAN · Güzellik ve bakım",
+    "whatsapp": "905338972137",
+    "email": "",
+    "city": "",
+    "district": "",
+    "mapUrl": "",
+    "hours": "",
+    "seoTitle": "BY TUĞÇE AKMAN · Güzellik ve bakım",
+    "seoDescription": "Güzellik ve bakım uygulamalarımızı keşfedin; ihtiyaçlarınızı birlikte değerlendirelim.",
+    "ogTitle": "BY TUĞÇE AKMAN",
+    "ogDescription": "Her detayda size özel dokunuşlar.",
+    "ogImage": "assets/crop-portrait-portrait.webp"
+  },
+  "services": {
+    "makyaj": {
+      "name": "Kalıcı makyaj",
+      "label": "İFADENİZLE UYUM İÇİNDE",
+      "title": "Sizin çizginiz.<br><em>Sizin ifadeniz.</em>",
+      "copy": "Kaş çizgisi, eyeliner veya dudak rengi: önce görünümü ve beklentinizi birlikte netleştirin.",
+      "tags": [
+        "Microblading",
+        "Kalıcı makyaj",
+        "Ön görüşme"
+      ],
+      "care": "Microblading / kalıcı makyaj",
+      "image": "assets/crop-work-eyeliner.webp",
+      "alt": "Kaş tasarımı",
+      "source": "",
+      "attribution": "",
+      "about": "Kalıcı makyaj, kaş, göz çevresi veya dudakta makyaj etkisi oluşturmak amacıyla pigmentin cilde işlendiği kozmetik bir uygulamadır. Microblading, kaş görünümü için kullanılan tekniklerden biridir. Klasik makyajdan farklıdır; kolayca silinmez.",
+      "steps": [
+        [
+          "Ön görüşme",
+          "İstenen görünüm, önceki uygulamalar ve uygunluk değerlendirmesi konuşulur."
+        ],
+        [
+          "Tasarım ve renk",
+          "Çizgi, form ve renk üzerinde uygulamadan önce anlaşılır."
+        ],
+        [
+          "Uygulama",
+          "Uygun bulunan yöntemle, hijyen koşulları gözetilerek pigment uygulaması yapılır."
+        ],
+        [
+          "Bakım ve kontrol",
+          "Yazılı bakım talimatları, iyileşme süreci ve gerekiyorsa kontrol planı paylaşılır."
+        ]
+      ],
+      "after": "Bakım ve kontrol talimatlarını uygulayıcıdan yazılı isteyin. Pigmentlere reaksiyon ve enfeksiyon riski bulunur; uygunluğu ve hijyen koşullarını önceden görüşün.",
+      "reference": [
+        "FDA — Kalıcı makyaj hakkında",
+        "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/cosmetics-safety-qa-tattoos-and-permanent-makeup"
+      ],
+      "audience": "Kaş, göz veya dudak görünümünde daha belirgin bir ifade düşünenler için ön görüşmede değerlendirilebilir.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 0,
+      "price": "",
+      "duration": "",
+      "category": "makyaj"
+    },
+    "kas": {
+      "name": "Kaş & kirpik",
+      "label": "BAKIŞLARINIZA KÜÇÜK BİR DOKUNUŞ",
+      "title": "Doğal ifadeniz,<br><em>ön planda.</em>",
+      "copy": "Kaş formu ve kirpik görünümü için hangi seçeneğin beklentinize uyduğunu konuşalım.",
+      "tags": [
+        "Kaş tasarımı",
+        "Kirpik seçenekleri",
+        "Kişisel görüşme"
+      ],
+      "care": "Kaş & kirpik",
+      "image": "assets/crop-work-lashes-a.webp",
+      "alt": "Kirpik laminasyonu",
+      "source": "",
+      "attribution": "",
+      "about": "Kaş ve kirpik uygulamaları tek bir işlem değildir. Kaş şekillendirme, renklendirme veya kirpik görünümüne yönelik farklı seçenekler olabilir. Kalıcı makyajdan ayrı olarak ele alınır; işletmede sunulan güncel yöntem ön görüşmede belirlenir.",
+      "steps": [
+        [
+          "Görünümü konuşun",
+          "Kaş formu, kirpik beklentisi ve beğendiğiniz örnekler değerlendirilir."
+        ],
+        [
+          "Yöntemi netleştirin",
+          "Hangi işlemin yapılacağı, ürünler ve kişisel uygunluk görüşülür."
+        ],
+        [
+          "Hazırlık ve uygulama",
+          "Seçilen yönteme göre bölge hazırlanır ve uygulama gerçekleştirilir."
+        ],
+        [
+          "Son kontrol",
+          "Görünüm birlikte kontrol edilir; yönteme özel bakım bilgisi alınır."
+        ]
+      ],
+      "after": "Kullanılacak ürünleri ve uygulama sonrası bakım koşullarını önceden sorun. Görüşmede uygulanacak yöntemi ve güncel hizmet kapsamını netleştirin.",
+      "audience": "Kaş formunu veya kirpik görünümünü günlük stiline göre düzenlemek isteyenler için seçenekler görüşülür.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 1,
+      "price": "",
+      "duration": "",
+      "category": "kas"
+    },
+    "cilt": {
+      "name": "Cilt bakımı",
+      "label": "CİLDİNİZE BİR MOLA",
+      "title": "Bakımın en<br><em>yalın hâli.</em>",
+      "copy": "Temizlikten bakımın son adımına: cildinizin ihtiyacına göre planlanan bir görüşmeyle başlayın.",
+      "tags": [
+        "Temizlik",
+        "Bakım planı",
+        "Kişisel değerlendirme"
+      ],
+      "care": "Cilt bakımı",
+      "image": "",
+      "alt": "",
+      "source": "",
+      "attribution": "",
+      "about": "Profesyonel cilt bakımı; cildin görünümüne ve ihtiyacına göre temizleme, uygun bakım ürünleri ve nemlendirme adımlarının planlandığı kozmetik bakım sürecidir. Kullanılan ürün ve cihazlar her bakımda aynı değildir.",
+      "steps": [
+        [
+          "İhtiyacı değerlendirin",
+          "Cilt bakım alışkanlıkları, beklenti ve ürün hassasiyetleri konuşulur."
+        ],
+        [
+          "Temizleme",
+          "Yüzeydeki makyaj ve kir, uygun ürünlerle temizlenir."
+        ],
+        [
+          "Kişisel bakım adımları",
+          "Uygun bulunan ürünler ve gerekirse maske gibi bakım adımları uygulanır. Her ciltte aynı işlem yapılmaz."
+        ],
+        [
+          "Bitiş ve ev bakımı",
+          "Nemlendirme ile bitirilir; günlük bakım için ürün kullanımı görüşülür."
+        ]
+      ],
+      "after": "Görseldeki sonuç kişiye aittir; aynı sonuç garanti edilmez. Yapılacak bakımın kapsamını ve sonrasında kullanacağınız ürünleri uygulayıcıyla netleştirin.",
+      "audience": "Günlük bakımına profesyonel bir bakım planı eklemek isteyenler için ihtiyaçlar konuşulur.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 2,
+      "price": "",
+      "duration": "",
+      "category": "cilt"
+    },
+    "tirnak": {
+      "name": "Protez tırnak",
+      "label": "ELLERİNİZE KİŞİSEL BİR DOKUNUŞ",
+      "title": "Küçük detaylar.<br><em>Size ait bir stil.</em>",
+      "copy": "Uzunluk, form ve renk seçiminizi birlikte planlayın. Güncel teknikleri ve bakım koşullarını öğrenin.",
+      "tags": [
+        "Form & uzunluk",
+        "Renk seçimi",
+        "Bakım planı"
+      ],
+      "care": "Protez tırnak",
+      "image": "assets/crop-work-french.webp",
+      "alt": "French tırnak tasarımı",
+      "source": "",
+      "attribution": "",
+      "about": "Protez tırnak, doğal tırnağa seçilen sisteme göre ek uzunluk veya şekil kazandıran kozmetik bir uygulamadır. Jel, akrilik ve farklı uzatma yöntemleri aynı şey değildir; işletmenin kullandığı sistem görüşmede teyit edilir.",
+      "steps": [
+        [
+          "Form ve uzunluk",
+          "Günlük kullanımınıza uygun uzunluk, şekil ve renk seçilir."
+        ],
+        [
+          "Hazırlık",
+          "Tırnak değerlendirilir ve seçilen sisteme uygun hazırlık yapılır."
+        ],
+        [
+          "Şekillendirme",
+          "Kullanılan yönteme göre yapı oluşturulur ve son şekli verilir."
+        ],
+        [
+          "Renk ve bakım planı",
+          "Renk/bitiş tamamlanır; yenileme ve profesyonel çıkarma planı görüşülür."
+        ]
+      ],
+      "after": "Mevcut tırnak sorunlarını kapatmak için protez tırnak kullanmayın. Alet temizliği, bakım ve güvenli çıkarma koşullarını sorun.",
+      "reference": [
+        "AAD — Manikür ve pedikür güvenliği",
+        "https://www.aad.org/public/everyday-care/nail-care-secrets/basics/pedicures/manicure-pedicure-safety"
+      ],
+      "audience": "Tırnaklarında farklı bir form, uzunluk veya renk isteyenler için yöntem ve bakım planı birlikte seçilir.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 3,
+      "price": "",
+      "duration": "",
+      "category": "tirnak"
+    },
+    "sac": {
+      "name": "Saç & topuz",
+      "label": "ÖZEL GÜNÜNÜZE EŞLİK EDEN DETAY",
+      "title": "Size yakışan form.<br><em>Size ait bir gün.</em>",
+      "copy": "Topuz ve özel gün saç tasarımı için kıyafetinizle ve istediğiniz görünümle başlayalım.",
+      "tags": [
+        "Topuz",
+        "Özel gün",
+        "Stil görüşmesi"
+      ],
+      "care": "Saç / topuz",
+      "image": "assets/crop-work-updo.webp",
+      "alt": "Topuz tasarımı",
+      "source": "",
+      "attribution": "",
+      "about": "Topuz ve özel gün saç tasarımı, saçın uzunluğu ve yapısına göre bir model oluşturulmasıdır. Daha sade bir toplama veya belirgin bir topuz, kıyafet ve aksesuarla birlikte planlanabilir. Güncel hizmet ve prova seçeneklerini görüşün.",
+      "steps": [
+        [
+          "Stil görüşmesi",
+          "Etkinlik, kıyafet, aksesuar ve beğendiğiniz modeller konuşulur."
+        ],
+        [
+          "Hazırlık planı",
+          "Saçın randevuya nasıl hazırlanacağı ve prova gereksinimi netleştirilir."
+        ],
+        [
+          "Şekillendirme",
+          "Kararlaştırılan modele göre saç hazırlanır, toplanır ve sabitlenir."
+        ],
+        [
+          "Son dokunuş",
+          "Denge, rahatlık ve varsa aksesuar yerleşimi birlikte kontrol edilir."
+        ]
+      ],
+      "after": "Randevu öncesi yıkama ve hazırlık koşullarını işletmeye sorun; her model için aynı hazırlık geçerli olmayabilir.",
+      "audience": "Davet, gelin hazırlığı veya özel bir gün için saç modeli planlayanlar için görüşme yapılır.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 4,
+      "price": "",
+      "duration": "",
+      "category": "sac"
+    },
+    "ozel": {
+      "name": "Özel gün makyajı",
+      "label": "GÜNÜNÜZÜN IŞIĞI, SİZİN İFADENİZ",
+      "title": "Işığınız yerinde.<br><em>İfadeniz size ait.</em>",
+      "copy": "Gelin veya özel gün makyajı için tonları, yoğunluğu ve istediğiniz bitişi birlikte konuşun.",
+      "tags": [
+        "Gelin makyajı",
+        "Özel gün",
+        "Görünüm planı"
+      ],
+      "care": "Özel gün makyajı",
+      "image": "assets/crop-work-makeup.webp",
+      "alt": "Özel gün makyajı uygulama anı",
+      "source": "",
+      "attribution": "",
+      "about": "Özel gün makyajı, etkinlik ve tercih edilen görünüme göre kozmetik ürünlerle yapılan, temizlenebilen makyajdır. Kalıcı makyaj uygulaması değildir. Ten bitişi, göz ve dudak tonları bir bütün olarak planlanır.",
+      "steps": [
+        [
+          "Beklentiyi konuşun",
+          "Etkinlik, ışık, kıyafet, ten bitişi ve renk tercihleri değerlendirilir."
+        ],
+        [
+          "Ten hazırlığı",
+          "Uygun kozmetik ürünlerle makyaja hazırlık yapılır."
+        ],
+        [
+          "Makyaj uygulaması",
+          "Kararlaştırılan görünüme göre ten, göz ve dudak makyajı tamamlanır."
+        ],
+        [
+          "Son kontrol",
+          "Görünüm gün ışığında veya uygun ışıkta kontrol edilir; tazeleme ve temizleme konuşulur."
+        ]
+      ],
+      "after": "Kullandığınız ürünleri ve bilinen ürün hassasiyetlerini görüşmede belirtin. Güncel hizmet ve prova seçeneklerini işletmeyle teyit edin.",
+      "audience": "Davet veya özel gününde istediği makyaj görünümünü birlikte planlamak isteyenler için uygundur.",
+      "before": "Önce beklentinizi, daha önce yaptırdığınız uygulamaları ve kullandığınız ürünleri görüşün. Hazırlık koşullarını randevudan önce işletmeden öğrenin.",
+      "enabled": true,
+      "order": 5,
+      "price": "",
+      "duration": "",
+      "category": "ozel"
+    }
+  },
+  "photos": [
+    {
+      "key": "makyaj",
+      "label": "Kalıcı eyeliner",
+      "image": "assets/crop-work-eyeliner.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/DduMxtjIl6t/",
+      "width": 480,
+      "height": 640,
+      "id": "work-1",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kalıcı eyeliner",
+      "home": true,
+      "gallery": true,
+      "serviceId": "makyaj"
+    },
+    {
+      "key": "tirnak",
+      "label": "French tırnak tasarımı",
+      "image": "assets/crop-work-french.webp",
+      "source": "",
+      "width": 828,
+      "height": 1104,
+      "id": "work-2",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "French tırnak tasarımı",
+      "home": true,
+      "gallery": true,
+      "serviceId": "tirnak"
+    },
+    {
+      "key": "sac",
+      "label": "Topuz tasarımı",
+      "image": "assets/crop-work-updo.webp",
+      "source": "",
+      "width": 828,
+      "height": 1104,
+      "id": "work-3",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Topuz tasarımı",
+      "home": true,
+      "gallery": true,
+      "serviceId": "sac"
+    },
+    {
+      "key": "ozel",
+      "label": "Özel gün makyajı uygulama anı",
+      "image": "assets/crop-work-makeup.webp",
+      "source": "",
+      "width": 635,
+      "height": 846,
+      "id": "work-4",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Özel gün makyajı uygulama anı",
+      "home": true,
+      "gallery": true,
+      "serviceId": "ozel"
+    },
+    {
+      "image": "assets/crop-work-brows-a.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/DdeGYKsIpYm/",
+      "label": "Kaş tasarımı",
+      "key": "kas",
+      "width": 1200,
+      "height": 1600,
+      "id": "work-5",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kaş tasarımı",
+      "home": true,
+      "gallery": true,
+      "serviceId": "kas"
+    },
+    {
+      "image": "assets/crop-work-lashes-a.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/C7SMSbCsk-a/",
+      "label": "Kirpik laminasyonu",
+      "key": "kas",
+      "width": 1200,
+      "height": 1600,
+      "id": "work-6",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kirpik laminasyonu",
+      "home": true,
+      "gallery": true,
+      "serviceId": "kas"
+    },
+    {
+      "image": "assets/crop-work-lips.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/C7aEA5PsSOL/",
+      "label": "Dudak renklendirme",
+      "key": "makyaj",
+      "width": 1200,
+      "height": 1600,
+      "id": "work-7",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Dudak renklendirme",
+      "home": true,
+      "gallery": true,
+      "serviceId": "makyaj"
+    },
+    {
+      "image": "assets/crop-work-lashes-b.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/DH5hYdlM19j/",
+      "label": "Kirpik detayı",
+      "key": "kas",
+      "width": 1200,
+      "height": 1600,
+      "id": "work-8",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kirpik detayı",
+      "home": true,
+      "gallery": true,
+      "serviceId": "kas"
+    },
+    {
+      "image": "assets/crop-work-eyeliner-a.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/DMFL16IM0oL/",
+      "label": "Kalıcı eyeliner · yakın detay",
+      "key": "makyaj",
+      "width": 1200,
+      "height": 1600,
+      "id": "work-9",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kalıcı eyeliner · yakın detay",
+      "home": true,
+      "gallery": true,
+      "serviceId": "makyaj"
+    },
+    {
+      "image": "assets/crop-work-brows-b.webp",
+      "source": "https://www.instagram.com/bytugcepinar/p/DPela2MiJEh/",
+      "label": "Kaş çizgisi",
+      "key": "kas",
+      "width": 1080,
+      "height": 1440,
+      "id": "work-10",
+      "description": "",
+      "status": "published",
+      "rightsConfirmed": true,
+      "alt": "Kaş çizgisi",
+      "home": true,
+      "gallery": true,
+      "serviceId": "kas"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Eski kaş uygulamaları üzerine",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DUOSIQliNaA/",
+      "poster": "assets/crop-reel-kas.webp",
+      "id": "reel-0",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Cilt bakımı üzerine bir sohbet",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DUVMR_diLBU/",
+      "poster": "assets/crop-reel-tugce.webp",
+      "id": "reel-1",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Yüzde ilk dikkati çeken nedir?",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DYRiAFtIQt5/",
+      "poster": "assets/crop-reel-sohbet.webp",
+      "id": "reel-2",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "BY TUĞÇE AKMAN ile soru & cevap",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DR-JaHLCAmn/",
+      "poster": "assets/crop-reel-yeni.webp",
+      "id": "reel-3",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Makyaj temizliği üzerine",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DR6pDzXCHtx/",
+      "poster": "assets/crop-reel-temizlik.webp",
+      "id": "reel-4",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Röportajdan bir kesit",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DR2O3O3iHqR/",
+      "poster": "assets/crop-reel-altinci.webp",
+      "id": "reel-5",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "BY TUĞÇE AKMAN ile sohbetin devamı",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DRw7EIYCLTJ/",
+      "poster": "assets/crop-reel-yedinci.webp",
+      "id": "reel-6",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Hareket ve bakım üzerine sohbet",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DRp1mvZCJaU/",
+      "poster": "assets/crop-reel-sekizinci.webp",
+      "id": "reel-7",
+      "status": "published",
+      "rightsConfirmed": true
+    },
+    {
+      "title": "Merak ettikleriniz üzerine sohbet",
+      "url": "https://www.instagram.com/bytugcepinar/reel/DRtv-ZdCKl6/",
+      "poster": "assets/crop-reel-dokuzuncu.webp",
+      "id": "reel-8",
+      "status": "published",
+      "rightsConfirmed": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-1",
+      "question": "İlk görüşmede hemen uygulama yapılır mı?",
+      "answer": "Önce beklentiniz, uygulama kapsamı ve sorularınız konuşulur. Uygulama kararı kişisel değerlendirme ve karşılıklı onayla verilir."
+    },
+    {
+      "id": "faq-2",
+      "question": "Devam randevumu veya tarih değişikliğini nasıl isterim?",
+      "answer": "Randevu alanında “Mevcut danışanım” seçeneğini işaretleyerek talebinizi WhatsApp üzerinden iletebilirsiniz. Kesin saat işletme tarafından onaylanır."
+    },
+    {
+      "id": "faq-3",
+      "question": "Fiyat ve süre bilgisini nasıl öğrenirim?",
+      "answer": "Uygulamayı seçip fiyat ve kapsam bilgisi talebi hazırlayabilirsiniz. Güncel ücret ve süreyi işletmeyle teyit edin."
+    }
+  ]
+}

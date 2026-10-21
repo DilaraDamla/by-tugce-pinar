@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dilaradamla.github.io/by-tugce-pinar/sitemap.xml
