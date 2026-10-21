@@ -1,5 +1,14 @@
 (() => {
   'use strict';
+  // A browser refresh starts the customer page at its introduction.
+  if(performance.getEntriesByType('navigation')[0]?.type==='reload'){
+    history.scrollRestoration='manual';
+    if(location.hash)history.replaceState(history.state,'',location.pathname+location.search);
+    const resetTop=()=>window.scrollTo({top:0,left:0,behavior:'instant'});
+    resetTop();requestAnimationFrame(resetTop);
+    window.addEventListener('pageshow',resetTop,{once:true});
+  }
+
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   window.StudioIcons?.render();
   const motion = window.Motion;
