@@ -29,7 +29,7 @@
       const frame = document.createElement('iframe');
       frame.title = video.title + ' — Instagram videosu';
       frame.src = url + 'embed/'; frame.loading = 'lazy';
-      frame.allow = 'encrypted-media; picture-in-picture; fullscreen';
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
       frame.referrerPolicy = 'strict-origin-when-cross-origin';
       frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-forms allow-presentation');
       slot.replaceChildren(frame);
@@ -50,7 +50,7 @@
     const previous = document.createElement('button'); previous.type = 'button'; previous.textContent = '←'; previous.setAttribute('aria-label', 'Önceki video');
     const next = document.createElement('button'); next.type = 'button'; next.textContent = '→'; next.setAttribute('aria-label', 'Sonraki video');
     const count = document.createElement('span'); count.setAttribute('role', 'status'); count.setAttribute('aria-live', 'polite');
-    controls.append(previous, count, next); grid.after(controls);
+    const toggle=document.createElement('button');toggle.type='button';toggle.className='qa-auto-toggle';let automatic=!matchMedia('(prefers-reduced-motion: reduce)').matches;const updateToggle=()=>{toggle.textContent=automatic?'Slaytı duraklat':'Slaytı başlat';toggle.setAttribute('aria-pressed',String(automatic));};updateToggle();toggle.addEventListener('click',()=>{automatic=!automatic;updateToggle();});controls.append(previous, count, next,toggle); grid.after(controls);
     let current = 0;
     const sync = () => {
       const left = grid.getBoundingClientRect().left;
@@ -75,6 +75,9 @@
     grid.addEventListener('scroll', sync, { passive: true });
     new ResizeObserver(sync).observe(grid);
     sync();
+    let visible=false,hovered=false;new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;},{threshold:.4}).observe(grid);
+    grid.addEventListener('mouseenter',()=>{hovered=true});grid.addEventListener('mouseleave',()=>{hovered=false});
+    const timer=setInterval(()=>{if(!grid.isConnected){clearInterval(timer);return;}if(!automatic||!visible||hovered||document.hidden||grid.contains(document.activeElement)||grid.querySelector('iframe'))return;const target=slides[(current+1)%slides.length];grid.scrollTo({left:target.offsetLeft-slides[0].offsetLeft,behavior:'smooth'});},8000);
   }
 })();
 

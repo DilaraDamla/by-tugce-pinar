@@ -28,3 +28,19 @@
 .portfolio-card figure{height:auto;padding:0;margin:0;border-radius:7px 7px 0 0;aspect-ratio:auto}
 .portfolio-card:focus-visible,.service-photo:focus-visible{outline:3px solid #704657;outline-offset:4px}
 @media(max-width:640px){.service-photo>span{bottom:10px;right:10px;padding:9px 12px;font-size:12px}.portfolio-card>div{padding:12px}.portfolio-card h3{font-size:14px;line-height:1.4}.portfolio-card span{font-size:9px;letter-spacing:.6px}.portfolio-card small{font-size:11px}}
+
+/* Stronger reading hierarchy and an accessible sliding video rail. */
+:root{--body:#49434c}
+body{color:#192134}
+.section-heading>p,.premium-hero .hero-copy .hero-description,.service-body>p,.about-copy p,.contact-grid p{color:#49434c;font-weight:500}
+.eyebrow,.section-heading .eyebrow,.premium-hero .hero-copy .eyebrow,.service-eyebrow{color:#704657;font-weight:700}
+.hero-note,.privacy-section p,.qa-video-card p,.qa-privacy-note{color:#514650;font-weight:500}
+.service-tabs [data-service],.portfolio-filters button,.portfolio-filters label,.text-button{font-weight:600}
+.portfolio-filters button,.portfolio-filters label{color:#514650}
+.qa-video-card h3{color:#192134;font-weight:600;line-height:1.4}
+.qa-play span{background:#192134;color:#fff;font-weight:700;font-size:14px;border:1px solid #fff}
+.qa-carousel{scroll-snap-type:x mandatory;scroll-behavior:smooth;overscroll-behavior-x:contain}
+.qa-carousel-controls{flex-wrap:wrap;gap:12px}
+.qa-carousel-controls .qa-auto-toggle{width:auto;min-width:150px;border-radius:8px;padding:10px 16px;color:#fff;background:#192134;font-size:13px;font-weight:600}
+@media(max-width:640px){.premium-hero .hero-copy .hero-description,.section-heading>p{font-size:14px;line-height:1.8}.hero-note{font-size:12px}.service-tabs [data-service]{font-size:13px}.privacy-section p{font-size:12px;line-height:1.8}}
+@media(prefers-reduced-motion:reduce){.qa-carousel{scroll-behavior:auto}}
